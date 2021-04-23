@@ -1,0 +1,8 @@
+num = int(input("number: "))
+
+sum = 0
+counter = 1
+while counter <= num:
+    sum = sum + counter     
+    counter += 1  
+print('Sum of 1 until %d: %d' % (num,sum)) 
